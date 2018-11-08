@@ -1,6 +1,8 @@
 
 # Bayes' Theorem 
 
+## Introduction
+
 Before introducing Parametric inference, it is necessary to understand Bayes’ theorem (Bayes' Law) and its different components. What makes Bayes' theorem useful is that it allows incorporation of some knowledge or belief that we already have (commonly known as the prior) to help us calculate the probability of a related event. Looking back at our initial example, we identified the need for having some ability to incorporate our prior beliefs or understanding in order to figure out if our mood has any impact on the weather. 
 
 This lesson will explain how we can consider doing this. 
