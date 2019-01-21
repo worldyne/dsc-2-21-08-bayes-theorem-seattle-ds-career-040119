@@ -61,13 +61,10 @@ In some cases we may not have any prior information in terms of frequencies to c
 
 ## The LIKELIHOOD
 
-$P(B|A)$ in our bayesian equation is the likelihood. it shows the probability of a patient being alcoholic , GIVEN that he has a liver disease. It’s not a probability, but it is **proportional** to a probability. The likelihood of a hypothesis (B) given some data (A) is proportional to the probability of obtaining B given that A is true. Since a likelihood isn’t actually a probability it doesn’t obey various rules of probability. For example, likelihood need not sum to 1.
+$P(B|A)$ in our bayesian equation is the likelihood. it shows the probability of a patient being alcoholic , GIVEN that he has a liver disease. It’s not a probability, but it is **proportional** to a probability. The likelihood of a hypothesis (B) given some data (A) is proportional to the probability of obtaining B given that A is true. 
+However, since a likelihood is not actually a probability, many of the rules that apply to probability don't necessarily apply to a likelihood. An example of that is that likelihood doesn't need to sum up to 1. 
 
-A critical difference between probability and likelihood is in the interpretation of what is fixed and what can vary. In the case of a conditional probability, P(A|B), the hypothesis is fixed and the data are free to vary. Likelihood, however, is the opposite. The likelihood of a hypothesis, $L(Hypothesis|Data)$, conditions on the data as if they are fixed while allowing the hypotheses to vary.
-
-The distinction is hard to grasp at first,.
-
->For conditional probability, the hypothesis is treated as a given and the data are free to vary. For likelihood, the data are a given and the hypotheses vary.
+Another important difference between likelihood and probability is the fact that when looking at a conditional probability, L(D|H), the hypothesis is treated as "fixed" and the data can vary. When talking about a likelihood, the situation is exactly opposite, with L(H|D) meaning that the data is fixed and the hypothesis can vary.
 
 ## The Posterior Probability 
 
